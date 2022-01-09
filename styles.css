@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	-webkit-user-select:none;
+}
+	
+img{
+	width: 100%;
+	height: 100%;
+}
+
+/*FIRST CANVAS
+========================================================*/
+.firstCanvas{
+	display: flex;
+	justify-content: center;
+	height: 36px;
+	background-color: #F8F8F8;
+}
+.firstLeft{
+	display: flex;
+	align-items: center;
+}
+.first{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1120px;
+	width: 100%;
+}
+
+.mapPointImg{
+	width: 20px;
+	height: 20px;
+	padding-right: 12.8px;
+}
+
+.f-makhachkala{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 100%;
+	margin-right: 99px;
+	width: 65px;
+}
+
+.f-shops, .f-clients, .f-legalIntities{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 100%;
+}
+
+.f-legalIntitiesCanvas{
+	margin-left: 27px;
+	min-width: 152px;
+}
+
+.f-shops{
+	margin-right: 24px;
+}
+
+.f-clientsCanvas, .f-legalIntitiesCanvas, .f-shopsCanvas{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.chevron{
+	width: 16px;
+	height: 13px;
+	margin-left: 11px;
+	padding: 0;
+}
+
+.number{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 100%;
+	color: #696969;
+	margin-right: 20px;
+	min-width: 192px;
+}
+
+/*SECOND CANVAS
+========================================================*/
+
+.secondCanvas{
+	display: flex;
+	align-items: center;
+	width: 1120px;
+	margin: 34px auto 0;
+}
+
+.logo{
+	width:136px; 
+	height:24px;
+	margin-right: 56px;
+	cursor: pointer;
+}
+
+.search{
+	display: flex;
+	width: auto;
+}
+
+.scSearchInput{
+	box-sizing: border-box;
+	width: 412px;
+	height: 48px;
+	border: 1px solid #D5D5D5;
+	border-radius: 3px;
+	padding: 16px;
+	outline:none;
+}
+
+.loupeCanvas{
+	background-color: #E0001B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 56px;
+	height: 48px;
+	cursor: pointer;
+	transform: translateX(-1px);
+}
+
+.loupe{
+	width: 24px;
+	height: 24px;
+}
+
+.buttons{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-left: 46px;
+}
+
+.secondCanvasFavorites, .secondCanvasBasket{
+	width: 138px;
+	height: 48px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	cursor: pointer;
+}
+
+.heart{
+	width:24px;
+	height:19,63px;
+}
+
+.secondCanvasFavoritesP, .secondCanvasBasketP{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 100%;
+	text-align: center;
+	color: #1D1D1B;
+}
+
+.secondCanvasFavoritesP2, .secondCanvasBasketP2{
+	width: 17px;
+	height: 17px;
+	background-color: #E0001B;
+	border-radius: 10px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.secondCanvasCompare{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 138px;
+	height: 48px;
+	cursor: pointer;
+}
+.secondCanvasCompareIcon{
+	width: 26.63px;
+	height: 24px;
+}
+.secondCanvasP{
+	margin-left: 12.37px;
+}
+
+.secondCanvasBasket{
+	width: 138px;
+}
+
+.secondCanvasBasketIcon{
+	width: 24px;
+	height: 24px;
+}
+
+.secondCanvasFavorites:hover, .secondCanvasCompare:hover, .secondCanvasBasket:hover{
+	background-color: #F6F6F6;
+}
+
+
+/*CATALOG
+=============================================================================================================*/
+
+.catalog, .catalog li{
+	display: flex;
+	width: 1120px;
+	margin: 0 auto;
+	align-items: center;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 100%;
+	height: 48px;
+	background-color: #F8F8F8;
+	cursor: pointer;
+}
+.catalog li:hover{
+	background-color: #F1F1F1;
+}
+
+.catalog li{
+	display: flex;
+	justify-content: center;
+}
+.catalog li:nth-child(2){
+	max-width: 202px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.catalog{
+	margin-top: 28px;
+}
+
+.catalog li img{
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+
+.catalog li:first-child{
+	background-color: #E0001B;
+	color: white;
+	max-width: 136px;
+	justify-content: flex-start;
+}
+
+.catalog li:first-child:hover, .loupeCanvas:hover{
+ background-color: red;
+}
+
+.burger{
+	width: 19px;
+	height: 2px;
+	background-color: white;
+	margin: 0 16px;
+}
+.burger::before{
+	content: "";
+	position: absolute;
+	width: 19px;
+	height: 2px;
+	background-color: white;
+	transform: translateY(-6px);
+}
+.burger::after{
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 2px;
+	background-color: white;
+	transform: translateY(6px);
+}
